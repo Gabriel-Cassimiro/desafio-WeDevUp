@@ -2,7 +2,7 @@ export function Footer() {
 	return (
 		<footer className="footer pt-1 ">
 			<div className="container mx-auto px-6">
-				<div className="mt-16 border-t-2 border-gray-400 flex flex-col items-center">
+				<div className="mt-6 border-t-2 border-gray-400 flex flex-col items-center">
 					<div className="sm:w-2/3 text-center py-6 ">
 						<div className="flex justify-center gap-4">
 							<a

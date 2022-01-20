@@ -1,6 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from "next"
 import cars from "../../utils/cars.json"
-import { cars as CarsInterface } from "../../utils/cars-interface"
 
 interface dataProps {
 	brand: string
