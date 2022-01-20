@@ -76,7 +76,7 @@ export function Cars() {
 	}
 
 	return (
-		<div className="flex flex-col gap-2">
+		<div className="sm:flex sm:flex-col sm:gap-2">
 			<Filter
 				setCars={setCars}
 				days={days}
@@ -84,15 +84,18 @@ export function Cars() {
 				distance={distance}
 				setDistance={setDistance}
 			/>
-			<div className="grid grid-cols-1 w-2/3 self-center mx-6 lg:grid-cols-2 xl:grid-cols-4 gap-4 ">
+			<div className="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-4  sm:w-1/2 self-center  gap-4 mx-6 ">
 				{displayUsers}
 			</div>
-			<div className="flex mt-4 justify-center ">
+			<div className="flex  mt-4 justify-center">
 				<ReactPaginate
 					previousLabel={"Previous"}
 					nextLabel={"Next"}
 					pageCount={pageCount}
 					onPageChange={changePage}
+					pageRangeDisplayed={1}
+					breakClassName={styles.breakClassName}
+					pageClassName={styles.pageClassName}
 					containerClassName={styles.paginationBttns}
 					previousLinkClassName={styles.previousBttn}
 					nextLinkClassName={styles.nextBttn}
@@ -100,7 +103,6 @@ export function Cars() {
 					activeClassName={styles.paginationActive}
 				/>
 			</div>
-			<div className="flex justify-center mt-2"></div>
 		</div>
 	)
 }

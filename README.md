@@ -1,34 +1,61 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## [Click Here to see the project working live](https://car-rental-bice.vercel.app/)
+
+<h3 align="center">NextJs Application made by Me</h3>
+
+<p align="center">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/Gabriel-Cassimiro/desafio-WeDevUp?color=38b2ac" />
+
+  <a href="https://www.linkedin.com/in/gabriel-guedes-953562212/">
+    <img alt="Made by" src="https://img.shields.io/badge/made%20by-Gabriel%20Cassimiro-38b2ac" />
+  </a>
+
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/Gabriel-Cassimiro/desafio-WeDevUp?color=38b2ac" />
+
+  <a href="https://github.com/Gabriel-Cassimiro/desafio-WeDevUp/blob/master/LICENSE">
+    <img alt="GitHub" src="https://img.shields.io/github/license/Gabriel-Cassimiro/desafio-WeDevUp?color=38b2ac" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="#about-the-project">About the project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#getting-started">Getting started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+</p>
+
+## About the project
+
+A responsive cars rental styled with [tailwindcss V3.0](https://tailwindcss.com/)
+
+![Desktop](https://user-images.githubusercontent.com/40603381/150406751-c30d3b33-8166-45bd-8ae6-80b576fa21e2.png)
+
+![Desktop](https://user-images.githubusercontent.com/40603381/150406765-af40337d-04e2-4241-8a8b-31348bf90918.png)
+
+![Mobile](https://user-images.githubusercontent.com/40603381/150412189-5a468177-254e-433d-99cd-efc6e257188d.png)
 
 ## Getting Started
 
-First, run the development server:
+First, install node_modules:
 
 ```bash
-npm run dev
-# or
-yarn dev
+
+yarn install
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then, run the development server:
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+```bash
+yarn dev
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Tests
 
-## Learn More
+```bash
+yarn test
+```
 
-To learn more about Next.js, take a look at the following resources:
+## 📝 License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Made by Gabriel 👋 &nbsp;[See my Linkedin](https://www.linkedin.com/in/gabriel-guedes-953562212/)
